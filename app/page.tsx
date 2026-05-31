@@ -28,7 +28,63 @@ export default function Home() {
 
 </div>
       </section>
+      <section className="py-20 px-6">
+  <h2 className="text-4xl font-bold text-center mb-12">
+    What AI-MATE Does
+  </h2>
 
+  <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+    <div className="bg-zinc-900 p-6 rounded-xl">
+      <h3 className="text-xl font-bold mb-3">💬 Auto Replies</h3>
+      <p>
+        Instantly answer customer questions 24/7 on WhatsApp.
+      </p>
+    </div>
+
+    <div className="bg-zinc-900 p-6 rounded-xl">
+      <h3 className="text-xl font-bold mb-3">📅 Appointment Booking</h3>
+      <p>
+        Automatically schedule meetings and appointments.
+      </p>
+    </div>
+
+    <div className="bg-zinc-900 p-6 rounded-xl">
+      <h3 className="text-xl font-bold mb-3">📈 Lead Capture</h3>
+      <p>
+        Collect customer details and generate qualified leads.
+      </p>
+    </div>
+
+  </div>
+</section>
+<section className="py-20 px-6 text-center">
+  <h2 className="text-4xl font-bold mb-12">
+    Pricing
+  </h2>
+
+  <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+
+    <div className="bg-zinc-900 p-6 rounded-xl">
+      <h3 className="text-2xl font-bold">Starter</h3>
+      <p className="text-4xl font-bold my-4">$29</p>
+      <p>Small businesses</p>
+    </div>
+
+    <div className="bg-blue-600 p-6 rounded-xl">
+      <h3 className="text-2xl font-bold">Pro</h3>
+      <p className="text-4xl font-bold my-4">$79</p>
+      <p>Growing businesses</p>
+    </div>
+
+    <div className="bg-zinc-900 p-6 rounded-xl">
+      <h3 className="text-2xl font-bold">Business</h3>
+      <p className="text-4xl font-bold my-4">$199</p>
+      <p>Advanced automation</p>
+    </div>
+
+  </div>
+</section>
       {/* Features */}
       <section className="py-24 px-6 max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12">
