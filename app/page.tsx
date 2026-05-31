@@ -4,12 +4,11 @@ export default function Home() {
       {/* Hero */}
       <section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          AI Agent For Small Businesses
+          AI MATE
         </h1>
 
         <p className="max-w-2xl text-lg md:text-xl text-gray-300 mb-8">
-          Automate WhatsApp replies, customer support, lead generation,
-          and appointment booking with AI.
+          AI Whatsapp & Customer Support 
         </p>
 
         <div className="flex gap-4">
