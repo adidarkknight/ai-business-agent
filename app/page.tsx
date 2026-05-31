@@ -8,7 +8,8 @@ export default function Home() {
         </h1>
 
         <p className="max-w-2xl text-lg md:text-xl text-gray-300 mb-8">
-          AI-powered Whatsapp automation & 24/7 Customer Support for modern businesses
+          AI-powered WhatsApp Assistant for Small Businesses.
+          Automate customer support, answer FAQs, capture leads, and book appointments 24/7.
         </p>
 
         <div className="flex gap-4">
@@ -17,7 +18,13 @@ export default function Home() {
           </button>
 
           <button className="border border-white px-6 py-3 rounded-lg">
-            Book Demo
+            <a
+  href="https://wa.me/919039553864"
+  target="_blank"
+  className="bg-green-600 px-6 py-3 rounded-lg"
+>
+  Chat on WhatsApp
+</a>
           </button>
         </div>
       </section>
