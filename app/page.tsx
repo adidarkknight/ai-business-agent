@@ -85,6 +85,51 @@ export default function Home() {
 
   </div>
 </section>
+<section className="py-20 px-6 bg-zinc-900">
+  <h2 className="text-4xl font-bold text-center mb-12">
+    What Customers Say
+  </h2>
+
+  <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <div className="p-6 bg-black rounded-xl">
+      <p>"AI-MATE answers customer questions instantly."</p>
+      <h3 className="mt-4 font-bold">Local Store Owner</h3>
+    </div>
+
+    <div className="p-6 bg-black rounded-xl">
+      <p>"We never miss WhatsApp leads anymore."</p>
+      <h3 className="mt-4 font-bold">Marketing Agency</h3>
+    </div>
+
+    <div className="p-6 bg-black rounded-xl">
+      <p>"Saved hours of customer support every week."</p>
+      <h3 className="mt-4 font-bold">Restaurant Owner</h3>
+    </div>
+  </div>
+</section>
+<section className="py-20 px-6">
+  <h2 className="text-4xl font-bold text-center mb-12">
+    Frequently Asked Questions
+  </h2>
+
+  <div className="max-w-3xl mx-auto space-y-6">
+    <div>
+      <h3 className="font-bold">Does it work on WhatsApp?</h3>
+      <p>Yes, AI-MATE works directly with WhatsApp conversations.</p>
+    </div>
+
+    <div>
+      <h3 className="font-bold">Can it answer customer questions?</h3>
+      <p>Yes, it provides instant automated responses.</p>
+    </div>
+
+    <div>
+      <h3 className="font-bold">Can I try it first?</h3>
+      <p>Yes, start with the free plan.</p>
+    </div>
+  </div>
+</section>
+
       {/* Features */}
       <section className="py-24 px-6 max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12">
@@ -212,6 +257,15 @@ export default function Home() {
           Book Demo
         </button>
       </section>
+      <footer className="py-10 text-center border-t border-zinc-800">
+  <h3 className="text-2xl font-bold">AI-MATE</h3>
+  <p className="text-gray-400 mt-2">
+    AI-powered WhatsApp Automation
+  </p>
+  <p className="text-gray-500 mt-4">
+    © 2025 AI-MATE. All rights reserved.
+  </p>
+</footer>
     </main>
   );
 }
