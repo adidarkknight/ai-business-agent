@@ -12,18 +12,18 @@ export default function Home() {
           Automate customer support, answer FAQs, capture leads, and book appointments 24/7.
         </p>
 
-        <div className="flex flex-col md:flex-row gap-4 items-center">
+        <div className="flex gap-4">
           <button className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold">
             Start Free
           </button>
 
           <button className="border border-white px-6 py-3 rounded-lg">
- <a
+            <a
   href="https://wa.me/919039553864"
   target="_blank"
-  className="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg font-semibold whitespace-nowrap"
+  className="bg-green-600 px-6 py-3 rounded-lg"
 >
-  Chat on WhatsApp
+  Chat on WhatsApp\
 </a>
           </button>
         </div>
